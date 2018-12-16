@@ -1,0 +1,152 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="SurveyForm.css">
+</head>
+<body>
+	<h1 id = "title">Running History Survey</h1>
+	<div class = "main-content">
+	<p id = "description">
+	Tell me a little more about yourself 	
+	</p>
+
+	
+
+	<form id = "survey-form" method="GET" action="https://crossorigin.me/https://freecodecamp.com">
+			
+	<div class= "entity">
+		<div class = "labels">
+		<label id ="name-label" for="name">* Name:</label>
+		</div>
+		<div class = "answerItem">
+		<input class="input-field" id="name" type="text" name="name" placeholder="Enter your name">
+		</div>
+	</div>
+
+	<div class= "entity">
+			<div class = "labels">
+			<label id ="email-label" for ="email">* Email:</label>
+			</div>
+			<div class = "answerItem">
+			<input class="input-field"  id ="email"type="email" name="email" placeholder="Enter your email">
+			</div>
+	</div>
+
+			 
+		<div class= "entity">
+			<div class = "labels">
+				<label id="number-label" for="age">* Age:</label>
+			</div>
+			<div class = "answerItem">
+					<input class="input-field"  id= "age" type="number" name="age" min="1" max= "125" placeholder="Age">
+			</div>
+		</div>		
+
+			
+		<div class= "entity">	
+			<div class = "labels">
+				<label for="currentOption">* Which best describes your running experience? </label>
+			</div>
+			<div class = "answerItem">
+				 <select class="dropdown" name="BestDescribes">
+    				<option disabled value>Select an option</option>
+    				<option value="Beginner">Beginner</option>
+   					<option value="Intermediate">Intermediate</option>
+    				<option value="Experienced">Experienced</option>
+    				<option value="Elite">Elite</option>
+    				<option value="Other">Other</option>
+  				</select>
+  			</div>
+  		</div>
+
+  		<div class= "entity">		
+  			<div class = "labels">
+  				<label for="recommend">
+  				* What is your current weekly mileage?
+  			</label>
+  			</div>
+  				<div class = "answerItem">
+  			<ul style="list-style: none;">
+          <li class="radio"><label>Less than 20 miles<input name="radio-buttons" value="1"  type="radio" class="userRatings" checked></label></li>
+          <li class="radio"><label>20 to 30 miles<input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label></li>
+          <li class="radio"><label>30 to 40 miles<input name="radio-buttons" value="3"  type="radio" class="userRatings" ></label></li>
+          <li class="radio"><label>40 to 50 miles<input name="radio-buttons" value="4"  type="radio" class="userRatings" ></label></li>
+          <li class="radio"><label>50 to 60 miles<input name="radio-buttons" value="5"  type="radio" class="userRatings" ></label></li>
+          <li class="radio"><label>More than 70 miles<input name="radio-buttons" value="5"  type="radio" class="userRatings" ></label></li>
+        </ul>
+  			</div>
+  		</div>
+
+
+  		<div class= "entity">	
+			<div class = "labels">
+  			<label  for="likeMost">
+  				* How many years have you been running?
+  			</label>
+
+  			</div>
+
+  			<div class = "answerItem">
+  			<select class="dropdown" name= "YearsRunning">
+  				<option disabled selected>Select an option</option>
+  				<option value ="Less">Less than a year</option>
+  				<option value = "2to3">2-3 years</option>
+  				<option value= "4to6">4-6 years</option>
+  				<option value="7to10">7-10 years</option>
+  				<option value="10plus">10+ years</option>
+  			</select> 
+  			</div>
+
+  		</div>
+  
+
+
+
+  		<div class= "entity">
+  			<div class = "labels">
+  				<label for="ThingsToImprove">
+  				* Do you do any cross training or strength exercises routinely?
+							(Check all that apply): 
+						</label>
+				</div>
+
+			<div class = "answerItem">
+		 <ul id="CrossTraining" style="list-style: none;">
+          <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="TrainingTypes">Core exercises</label></li>
+          <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">Strength training</li>
+          <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="TrainingTypes">Cycling</label></li>
+          <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="TrainingTypes">Swimming</label></li>
+          <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="TrainingTypes">Fitness classes (boxing, pilates, yoga)</label></li>
+          <li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="TrainingTypes">Hiking</label></li>
+          <li class="checkbox"><label><input name="prefer" value="7" type="checkbox" class="TrainingTypes">Long walks</label></li>
+        </ul>
+				</div>
+			</div>
+		
+		<div class= "entity">
+			<div class = "labels">
+			<label for="anyComments">	
+				* Explain any recent (last 2-3 years) injuries you've had?
+			</label>
+			</div>
+			<div class = "answerItem">
+				<textarea  id = "comments" rows="5" cols="40" placeholder="Recent Injuries"></textarea>
+			</div>
+		</div>	
+
+		<div class= "entity">
+			<div class = "labels">
+			<label for="anyComments">	
+				* Any questions or concerns?
+			</label>
+			</div>
+			<div class = "answerItem">
+				<textarea  id = "comments" rows="5" cols="40" placeholder="Enter your comments here"></textarea>
+			</div>
+		</div>	
+
+			<input id = "submitButton" type="Submit" name="submit">
+
+</form>
+</div>
+</body>
+</html>
