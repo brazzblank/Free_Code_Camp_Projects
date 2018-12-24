@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<link href='https://fonts.googleapis.com/css? family=Montserrat' rel='stylesheet' type='text/css'>
+<html>
+<body>
+<main id="main" class="text-center">
+  <div align="center">
+  <h1 id="title">Steve Prefontaine</h1>
+  <h5> "To give anything less than your best, is to sacrifice the gift"</h5>
+<div id="img-div"> 
+  <figure id="image-caption">
+  <img id="image"  src="https://bringbackthemile.com/images/sized/images/ugc/uploads/about/Steve_Prefontaine_Hayward_Field-0x270.JPG" alt="Prefontaine" class="responsive">
+    <figcaption> The man. The myth. The legend. Steve "Pre" Fontaine. </figcaption>
+  </figure>
+</div>
+<div align="left">
+<p id="tribute-info"><a href = "https://en.wikipedia.org/wiki/Steve_Prefontaine" target="_blank">Steven Roland "Pre" Prefontaine </a> was born on January 25th, 1951 in the town of Coos Bay, Oregon. His father, Raymond Prefontaine, was a carpenter and a welder after his time serving in the U.S. Army in World War II. Steve's mother, Elfriede, worked as a seamstress. He was the middle child of two sisters, Neta and Linda.</p>
+<p>Prefontaine fell in love with running in middle school, but high school is where he really came in to his own. By his junior year cross country season he won the Oregon state titlel and his senior year he never lost a cross country race. He clocked a national record in the 2-mile in 8:41.5 and ran a 4:06 in the mile. He captured both the mile and two mile state titles that year.</p>
+
+<p>Prefontaine was recruited by several top track programs across the United States, but decided to enroll at the University of Oregon to train under coach Bill Bowerman (who in 1964 co-founded Blue Ribbon Sports, later known as Nike). In 1972, he began his training for the upcoming Olympic Games in Munich, which had special meaning for his family (his mother was German and his parents had met and married in Germany). He won four 5,000 meter titles in track three times in a row. At this time, he suffered only two more defeats in college (both in the mile), winning three Division I NCAA Cross Country Championships and four straight three-mile/5000-meter titles in track. He was a member of the Pi Kappa Alpha fraternity.</p>
+
+<p>In the spring of 1975, a group of traveling Finnish athletes (without Lasse Virén) took part in an NCAA Prep meet at Hayward Field in Eugene. After the event on Thursday, May 29, which included a 5,000-meter race that Prefontaine won, the Finnish and American athletes attended a party at the home of former Duck runner Geoff Hollister. Shortly after midnight, Prefontaine left the party to drive Frank Shorter to Kenny Moore's home on Prospect Drive, then descended narrow Skyline Boulevard alone, east of the university campus near Hendricks Park. While in the extended right curve near the base, his orange 1973 MGB convertible crossed the center line, jumped the curb, impacted a rock wall (44.0433°N 123.0549°W) and flipped, trapping him underneath it. A nearby resident was first on the scene and reported he found Prefontaine flat on his back, still alive but pinned beneath the wreck. By the time medics arrived, he was pronounced dead. It had been reported that his blood alcohol content was found by the Eugene Police Department to be 0.16. The official cause of death was traumatic asphyxiation and he had no other injuries that contributed.
+Prefontaine is buried in his hometown of Coos Bay at Sunset Memorial Park. A day after his funeral in Coos Bay, a memorial service at Hayward Field in Eugene drew thousands.</p>
+    </div>
+</main>
+</body>
+</html>
